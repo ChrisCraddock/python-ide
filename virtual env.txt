@@ -1,0 +1,5 @@
+Create a venv           | python -m venv .venv
+Activate (start) it	cmd:| .venv\Scripts\activate.bat -or- .venv\Scripts\Activate.ps1
+Exit (deactivate) it	| deactivate
+Check which Python runs	| Get-Command python
+Delete it	            | cmd: rmdir /s .venv
