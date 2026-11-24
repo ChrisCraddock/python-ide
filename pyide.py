@@ -60,7 +60,7 @@ def save_file():
         open(file_path, 'w', encoding='utf-8').write(editor.get('1.0', 'end'))
 
 
-#variable 'window'. Chnage theme inside .Window()
+#variable 'window'. Change theme inside .Window()
 window = ttkbootstrap.Window(themename='darkly') #same as doing tkinter.Tk()
 #window Title
 window.title('Python Editor')
